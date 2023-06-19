@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: linear-gradient(to right, rgb(236, 112, 112), rgb(246, 246, 171)); */
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: teal;
+}
+
+.container{
+   max-width: 700px;    
+    max-height: 800px; 
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    border-radius: 10%;
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(119, 100, 51);
+}
+
+span{
+    margin: 10px;
+}
+
+.formContainer form{
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: 1px solid teal;
+    border-bottom: solid;
+    border-radius: 5%;
+    padding: 10px 50px;
+}
+
+p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input{
+    width: 300px;
+    font-size: 15px;
+    padding: 8px;
+    margin: 3px;
+    cursor: pointer;
+}
+
+#image{
+    width: 220px;
+}
+
+.tagName{
+    width: 200px;
+}
+
+.button{
+    width: 70px;
+    background-color: rgb(142, 191, 191);
+    border: 1px solid rgb(142, 105, 13);
+}
+
+/* ------------------ */
+
+.uplaodPage{
+    font-size: 30px;
+}
+
+.backToHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.backToHome a{
+    text-decoration: none;
+    color: teal;
+    font-size: 20px;
+    font-weight: bold ;
+    cursor: pointer;
+    margin: 0px 20px;
+    padding: 10px;
+    border: 1px solid teal;
+    background-color: rgb(197, 225, 225);
+}
+
+.viewPage{
+    max-width: 800px;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin: auto;
+}
+
+
+.imageContainer{
+    overflow: scroll;
+    border: 2px solid teal;
+    margin: 20px;
+}
+
+
+.imgBox{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    margin: 20px;
+    padding: 20px;
+}
+
+
+
